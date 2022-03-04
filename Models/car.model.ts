@@ -9,7 +9,13 @@ export class Car {
   bolt: Bolt;
   carDoor: CarDoor;
   carEngine: CarEngine;
-  constructor() {
+  constructor(carNo: number, carBrand: string, color: string, bolt: Bolt, carDoor: CarDoor, carEngine: CarEngine) {
+    this.carNo = carNo;
+    this.carBrand = carBrand;
+    this.color = color;
+    this.bolt = bolt;
+    this.carDoor = carDoor;
+    this.carEngine = carEngine;
   }
   feature() {
     console.log(

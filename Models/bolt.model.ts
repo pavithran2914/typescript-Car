@@ -8,6 +8,6 @@ export class Bolt {
     this.quantity = quantity;
   }
   boltFunction() {
-    console.log('It is use to connect the car parts.');
+    console.log('Bolt is use to connect the car parts.');
   }
 }
